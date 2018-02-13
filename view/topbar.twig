@@ -1,4 +1,4 @@
-<a id="service-logo" {% if request.vocabid != '' %}class="service-{{ request.lang }}" {% endif %}href="{{ request.lang }}/{% if request.contentLang != request.lang %}?clang={{ request.contentLang }}{% endif %}{% if request.queryParam('anylang') == 'on' %}{% if request.contentLang == request.lang %}?{% else %}&{% endif %}anylang=on{% endif %}">{% if ServiceName is defined  %} <img src="resource/pics/{{ ServiceName }}.svg">{% else %}Skosmos{% endif %}</a>
+<a id="service-logo" {% if request.vocabid != '' %}class="service-{{ request.lang }}" {% endif %}href="{{ request.lang }}/{% if request.contentLang != request.lang %}?clang={{ request.contentLang }}{% endif %}{% if request.queryParam('anylang') == 'on' %}{% if request.contentLang == request.lang %}?{% else %}&{% endif %}anylang=on{% endif %}">{% if ServiceName is defined  %} <img src="resource/pics/gent-skosmos.svg">{% else %}Skosmos{% endif %}</a>
 {% if LanguageDropdown %}
 	<div id="language" class="dropdown"><span class="navigation-font">|</span>
 		<span class="navigation-font i-l">{% trans "Interface language" %}:</span>
