@@ -325,7 +325,7 @@ ul.dropdown-menu > li:last-child > input {
 }
 
 .multiselect-container > li.active > a, .multiselect-container > li > a:focus, .dropdown-menu > li:hover > a, .dropdown-menu > .active:focus > a, .dropdown-menu > .active:hover > a  {
-  background-color: #00748F;
+  background-color: #426879;
   color: #ffffff;
 }
 
@@ -753,7 +753,9 @@ span.xl-pref-label > img {
   top: 14px;
 }
 
-#feedback-vocid:hover, #feedback-vocid:focus, #feedback-vocid:active {
+#feedback-vocid:hover,
+#feedback-vocid:focus,
+#feedback-vocid:active {
   color: #00748f;
 }
 
@@ -762,7 +764,14 @@ span.xl-pref-label > img {
   min-height: 140px;
 }
 
-.feedback-box textarea, .feedback-box input, .feedback-box select, .feedback-box button, .feedback-box textarea:focus, .feedback-box input:focus, .feedback-box select:focus, .feedback-box button:focus {
+.feedback-box textarea,
+.feedback-box input,
+.feedback-box select,
+.feedback-box button,
+.feedback-box textarea:focus,
+.feedback-box input:focus,
+.feedback-box select:focus,
+.feedback-box button:focus {
   border-radius: 0;
   box-shadow: none;
 }
@@ -806,6 +815,8 @@ span.xl-pref-label > img {
   border: none;
   float:right;
   margin: 5px 0 15px 0;
+  padding: 11px;
+  width: 100%;
 }
 
 /* about page
@@ -2051,6 +2062,7 @@ body, .versal, h1, h2, p, .versal-bold {
   #navigation > a, #language > a, #navi4 > span {
     font-weight: 500;
     margin: 2px;
+    text-transform: capitalize;
   }
 
   #navigation,
@@ -2164,6 +2176,7 @@ body, .versal, h1, h2, p, .versal-bold {
 
   #navigation > a {
     margin: auto 10px;
+    text-transform: capitalize;
   }
 
   #service-logo {
